@@ -1,0 +1,120 @@
+/* CSS Reset */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* Fonts */
+@font-face {
+  font-family: 'Inter';
+  src: url('assets/fonts/static/Inter-Bold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('assets/fonts/static/Inter-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('assets/fonts/static/Inter-SemiBold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* Page Section */
+body {
+  color: #fff;
+  background-color: #141414;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-profile {
+  text-align: center;
+}
+
+/* Container */
+.container {
+  width: 290px;
+  padding: 30px;
+  background-color: #1f1f1f;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+/* Header */
+.header img {
+  width: 92;
+  height: 92px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-weight: 600;
+  color: #c5f82a;
+  margin-bottom: 25px;
+}
+
+/* Content */
+.content p {
+  margin-bottom: 20px;
+}
+
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  width: 100%;
+  height: 40px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 40px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.btn:hover {
+  background-color: #c5f82a;
+  color: #000;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.btn:last-child {
+  margin-bottom: 0;
+}
+
+/* Credit */
+.attribution {
+  font-size: 12px;
+  /* text-align: center; */
+}
+
+.attribution a:link,
+.attribution a:visited {
+  color: #c5f82a;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.attribution a:hover {
+  text-decoration: underline;
+}
